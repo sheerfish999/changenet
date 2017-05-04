@@ -15,6 +15,8 @@
 
 将 对 IP1 800 的访问跳转到本地 returnhtml 的文件静态返回
 
+
+
 需要启用 iptables,  如出现任何网络异常, systemctl restart iptables   即可放弃任何修改进行重置 
 
 使用 iptables -L 查看 普通规则,  使用 iptables -D OUTPUT n 手动删除某个链中的规则 
